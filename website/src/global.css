@@ -29,9 +29,15 @@ body {
 }
 h1 {
   font-family: "Tenor Sans", sans-serif;
-  color: var(--bittersweet-shimmer);
+  color: var(--dark-red);
   text-transform: capitalize;
   font-size: 4em;
+  font-weight: 100;
+}
+h2 {
+  font-family: "Tenor Sans", sans-serif;
+  color: var(--bittersweet-shimmer);
+  font-size: 2em;
   font-weight: 100;
 }
 

@@ -16,8 +16,8 @@ import routes from './routes';
 <!-- Navigation links -->
 <ul>
 <li><a href="#/">Home</a></li>
-<li><a href="#/about/svelte">Say hi!</a></li>
-<li><a href="#/projects/card">Wildcard route</a></li>
+<li><a href="#/about/svelte">About Me</a></li>
+<li><a href="#/projects/card">Projects</a></li>
 <li><a href="#/does/not/exist">Not found</a></li>
 </ul>
 
