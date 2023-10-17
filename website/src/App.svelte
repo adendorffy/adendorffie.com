@@ -1,27 +1,24 @@
 <!-- App.svelte -->
+<main>
+	<div class="navigation-bar">
+        <li><a class="navigation-link" href="/">Home</a></li>
+        <li><a class="navigation-link" href="/about">About</a></li>
+        <li><a class="navigation-link" href="/projects">Projects</a></li> 
+    </div>
+	<div>
+		
+	</div>
+
+</main>
+
 <script>
 // Your component logic
 import './global.css';
+import NavigationBar from './components/NavigationBar.svelte';
 import Router from 'svelte-spa-router';
 import routes from './routes';
+
 </script>
 
-
-<main>
-<div >
-	<h1>Adendorffie </h1>
-</div>
-
-
-<!-- Navigation links -->
-<ul>
-<li><a href="#/">Home</a></li>
-<li><a href="#/about/svelte">About Me</a></li>
-<li><a href="#/projects/card">Projects</a></li>
-<li><a href="#/does/not/exist">Not found</a></li>
-</ul>
-
-<!-- Show the router -->
 <Router {routes} />
-</main>
 
