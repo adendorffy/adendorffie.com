@@ -1,0 +1,42 @@
+/* global.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+:root {
+  font-family: "Tenor Sans", sans-serif;
+  --dark-red: #8c1c13ff;
+  --bittersweet-shimmer: #bf4342ff;
+  --almond: #e7d7c1ff;
+  --beaver: #a78a7fff;
+  --liver: #735751ff;
+}
+
+a {
+  color: var(--bittersweet-shimmer);
+  text-decoration: none;
+}
+
+main {
+  font-family: "Tenor Sans", sans-serif;
+  text-align: center;
+  padding: 1em;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--almond);
+}
+h1 {
+  font-family: "Tenor Sans", sans-serif;
+  color: var(--bittersweet-shimmer);
+  text-transform: capitalize;
+  font-size: 4em;
+  font-weight: 100;
+}
+
+@media (min-width: 640px) {
+  main {
+    max-width: none;
+  }
+}
