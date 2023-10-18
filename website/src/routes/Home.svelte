@@ -1,11 +1,29 @@
-<h2>Home component</h2>
+<div class="inner-block">
+    <h1>Danel Adendorff</h1>
+    <em>Web Developer & Designer</em>
+</div>
+<div class="block">
+    <div class="column">    
+        
+        <div class="inner-block">
+            <h2>About Me</h2>
+            <p>
+                Write a concise paragraph or two about yourself. Highlight your background, skills, and what makes you unique as a professional.
+            </p>
+        </div>
+        <div class="inner-block">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <!-- Add your skills here -->
+            </ul>
+        </div>
+    </div>
 
-<p>
-    This sample shows how to set up the router with minimum functionality. <br/>
-    The route definition object contains a number of routes (including some with parameters and a catch-all at the end).<br/>
-    The links below allow navigating between pages.
-</p>
+    
+    <img src="me.jpeg" alt="Danel Adendorff"></div>
 
-<p>This is the Home component, which contains markup only.</p>
 
-<p><em>Hint:</em> Try navigating with the links below, then use your browser's back and forward buttons.</p>

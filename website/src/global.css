@@ -36,14 +36,15 @@ body {
   background-color: var(--alabaster);
   font-family: "Inter", sans-serif;
   text-align: center;
+  font-weight: 100;
 }
 h1 {
   font-family: "Lora", serif;
   color: var(--orange-peel);
-  text-transform: capitalize;
-  font-size: 4em;
-  font-weight: 100;
+  font-size: 3em;
+  margin: 2px;
 }
+
 h2 {
   font-family: "Lora", serif;
   color: var(--caribbean-current);
@@ -59,13 +60,20 @@ li {
   list-style-type: none;
 }
 
+img {
+  max-height: 70%;
+  width: auto;
+  border-radius: 10px;
+  margin: 0.5em;
+  display: block;
+}
+
 .navigation-bar {
-  display: fixed;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--moonstone);
   padding: 1em;
-  margin-bottom: 1em;
   border-radius: 10px;
 }
 
@@ -94,4 +102,25 @@ li {
   color: var(--alabaster); /* Change text color for active route */
   border-radius: 10%;
   transition: 200ms ease;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100%;
+}
+
+.inner-block {
+  background-color: var(--platinum);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
