@@ -1,29 +1,30 @@
-<div class="inner-block">
-    <h1>Danel Adendorff</h1>
-    <em>Web Developer & Designer</em>
-</div>
+<script>
+    import { link } from "svelte-spa-router";
+</script>
 <div class="block">
-    <div class="column">    
+    
+    <div class="column">  
+        <div class="inner-block-yellow">
+            <a class="" href="/" use:link><h1 class="black">Danel Adendorff</h1></a>
+            <em>Web Developer & Designer</em>
+        </div>  
         
         <div class="inner-block">
-            <h2>About Me</h2>
-            <p>
-                Write a concise paragraph or two about yourself. Highlight your background, skills, and what makes you unique as a professional.
-            </p>
+            <a href="/about" use:link><h2 >About</h2></a>
+         
         </div>
         <div class="inner-block">
-            <h2>Skills</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
-                <!-- Add your skills here -->
-            </ul>
+            <a href="/skills" use:link><h2 >Skills</h2></a>
+            
+        </div>
+        <div class="inner-block">
+            <a  href="/projects" use:link><h2 >Projects</h2></a>
+            
         </div>
     </div>
 
     
-    <img src="me.jpeg" alt="Danel Adendorff"></div>
+</div>
+    
 
 

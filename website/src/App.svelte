@@ -3,7 +3,6 @@
 <script>
 	// Your component logic
 	import './global.css';
-	import NavigationBar from './components/NavigationBar.svelte';
 	import Router from "svelte-spa-router";
   	import { routes } from "./routes.js";
 	function routeLoaded(event) {
@@ -14,9 +13,4 @@
 
 </script>
 	
-	
-<main>
-	<NavigationBar route={$location}/>
-</main>
-
 <Router {routes} on:routeLoaded={routeLoaded} />

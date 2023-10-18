@@ -18,7 +18,8 @@
 }
 
 a,
-a:visited {
+a:visited,
+a:hover {
   color: white;
   text-decoration: none;
 }
@@ -39,17 +40,18 @@ body {
   font-weight: 100;
 }
 h1 {
-  font-family: "Lora", serif;
+  font-family: "Inter", sans-serif;
   color: var(--orange-peel);
   font-size: 3em;
   margin: 2px;
 }
 
 h2 {
-  font-family: "Lora", serif;
+  font-family: "Inter", sans-serif;
   color: var(--caribbean-current);
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 100;
+  margin: 0.5em;
 }
 
 li {
@@ -61,47 +63,20 @@ li {
 }
 
 img {
-  max-height: 70%;
-  width: auto;
+  max-width: 100%;
+  max-height: 50%;
   border-radius: 10px;
   margin: 0.5em;
   display: block;
+  opacity: 50%;
 }
 
-.navigation-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--moonstone);
-  padding: 1em;
-  border-radius: 10px;
-}
-
-.navigation-link {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  color: white;
-  text-decoration: none;
-  margin: 0 1em;
-}
-
-.navigation-link:hover {
-  color: var(--platinum);
-  border-radius: 10%;
-  text-decoration: none;
+img:hover {
+  opacity: 100%;
   transition: all 200ms ease;
-}
-
-.navigation-link.active {
-  padding: 5px;
-  background-color: var(
-    --sky-blue
-  ); /* Change background color for active route */
-  color: var(--alabaster); /* Change text color for active route */
-  border-radius: 10%;
-  transition: 200ms ease;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
 }
 
 .block {
@@ -118,9 +93,52 @@ img {
   padding: 1em;
   margin: 0.5em;
   border-radius: 10px;
+  opacity: 50%;
+}
+
+.inner-block-yellow {
+  background-color: var(--orange-peel);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 10px;
+  opacity: 50%;
+}
+
+.inner-block-yellow:hover,
+.inner-block:hover {
+  opacity: 100%;
+  transition: all 200ms ease;
+  padding: 1.5em;
+  cursor: pointer;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.black {
+  color: var(--eerie-black);
+}
+
+.nav-link {
+  color: white;
+  background-color: var(--jet);
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: var(--eerie-black);
+  transition: all 200ms ease;
+  cursor: pointer;
+  padding: 0.8em;
+}
+
+.bar {
+  display: flex;
+  justify-content: left;
+  width: 100%;
 }
