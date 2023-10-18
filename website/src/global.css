@@ -40,14 +40,14 @@ body {
   font-weight: 100;
 }
 h1 {
-  font-family: "Inter", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   color: var(--orange-peel);
   font-size: 3em;
   margin: 2px;
 }
 
 h2 {
-  font-family: "Inter", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   color: var(--caribbean-current);
   font-size: 1.5em;
   font-weight: 100;
@@ -103,7 +103,6 @@ img:hover {
   padding: 1em;
   margin: 0.5em;
   border-radius: 10px;
-  opacity: 50%;
 }
 
 .inner-block-yellow:hover,
@@ -115,6 +114,7 @@ img:hover {
 }
 
 .column {
+  justify-content: center;
   display: flex;
   flex-direction: column;
 }
@@ -124,6 +124,7 @@ img:hover {
 }
 
 .nav-link {
+  font-family: "Tenor Sans", sans-serif;
   color: white;
   background-color: var(--jet);
   border-radius: 10%;

@@ -5,8 +5,8 @@
     
     <div class="column">  
         <div class="inner-block-yellow">
-            <a class="" href="/" use:link><h1 class="black">Danel Adendorff</h1></a>
-            <em>Web Developer & Designer</em>
+            <a href="/" use:link><h1 class="black">Danel Adendorff</h1></a>
+            <em>Data Engineering Student</em>
         </div>  
         
         <div class="inner-block">

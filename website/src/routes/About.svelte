@@ -6,6 +6,7 @@
     <div class="bar">
         <a class="nav-link" href="/" use:link>Home</a>  
     </div>  
+    This is basically an online CV lol
 </main>
 
 
