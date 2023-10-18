@@ -1,35 +1,30 @@
 /* global.css */
 
-@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Lora:ital@0;1&family=Tenor+Sans&display=swap");
 
 :root {
   font-family: "Tenor Sans", sans-serif;
-  --dark-red: #8c1c13ff;
-  --bittersweet-shimmer: #bf4342ff;
-  --almond: #e7d7c1ff;
-  --beaver: #a78a7fff;
-  --liver: #735751ff;
-  --mindaro: #ddfcadff;
-  --fern-green: #618b4aff;
-  --onyx: #393e41ff;
-  --earth-yellow: #dda15eff;
-  --mint-cream: #ebf5eeff;
+  --caribbean-current: #16697aff;
+  --moonstone: #489fb5ff;
+  --sky-blue: #82c0ccff;
+  --isabelline: #ede7e3ff;
+  --orange-peel: #ffa62bff;
 
   --platinum: #cfdbd5ff;
   --alabaster: #e8eddfff;
-  --saffron: #f5cb5cff;
+
   --eerie-black: #242423ff;
   --jet: #333533ff;
 }
 
 a,
 a:visited {
-  color: var(--eerie-black);
+  color: white;
   text-decoration: none;
 }
 
 main {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;
   padding: 1em;
   max-width: none;
@@ -38,23 +33,24 @@ main {
 
 body {
   background-color: var(--alabaster);
+  font-family: "Inter", sans-serif;
 }
 h1 {
-  font-family: "Tenor Sans", sans-serif;
-  color: var(--jet);
+  font-family: "Lora", serif;
+  color: var(--orange-peel);
   text-transform: capitalize;
   font-size: 4em;
   font-weight: 100;
 }
 h2 {
-  font-family: "Tenor Sans", sans-serif;
-  color: var(--liver);
+  font-family: "Lora", serif;
+  color: var(--caribbean-current);
   font-size: 2em;
   font-weight: 100;
 }
 
 li {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1em;
   font-weight: 100;
   text-align: left;
@@ -65,23 +61,23 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--mint-cream);
+  background-color: var(--moonstone);
   padding: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
 }
 .navigation-link {
-  font-family: "Tenor Sans", sans-serif;
+  color: white;
+  font-family: "Inter", sans-serif;
   font-size: 1em;
   font-weight: 100;
-  color: var(--eerie-black);
+  color: white;
   text-decoration: none;
   margin: 0 1em;
 }
 
 .navigation-link:hover {
-  color: var(--dark-red);
-  background-color: var(--saffron);
+  color: var(--platinum);
   border-radius: 10%;
   text-decoration: none;
   transition: 0.5s;

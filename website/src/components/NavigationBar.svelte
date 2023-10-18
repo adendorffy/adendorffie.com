@@ -2,12 +2,15 @@
 <script>
     // Your component logic
     import '../global.css';
-    import Router from 'svelte-spa-router';
-    import routes from '../routes'; 
+    import { link } from "svelte-routing";
  
 </script>
-     <!-- Show the router -->
      
+<div class="navigation-bar">
+    <a class="navigation-link" href="/" use:link >Home</a>
+    <a class="navigation-link" href="/about" use:link about>About</a>
+    <a class="navigation-link" href="/projects" use:link projects>Projects</a>
+</div>
     
 
   
