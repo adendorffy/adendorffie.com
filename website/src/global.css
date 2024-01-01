@@ -39,6 +39,12 @@ body {
   text-align: center;
   font-weight: 100;
 }
+
+.bold {
+  text-align: center;
+  font-weight: 800;
+}
+
 h1 {
   font-family: "Tenor Sans", sans-serif;
   color: var(--orange-peel);
@@ -59,11 +65,12 @@ li {
   font-size: 1em;
   font-weight: 100;
   text-align: left;
-  list-style-type: none;
+  list-style-type: disc;
+  justify-content: center;
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   max-height: 50%;
   border-radius: 10px;
   margin: 0.5em;
@@ -79,11 +86,35 @@ img:hover {
   cursor: pointer;
 }
 
+.description {
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+
+.heading-img {
+  max-width: 30%;
+  max-height: 30%;
+  margin: 0.5em;
+  display: block;
+  opacity: 90%;
+}
+
 .block {
   display: flex;
   justify-content: center;
   align-items: top;
   height: 100%;
+}
+
+.center {
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 }
 
 .inner-block {
@@ -94,6 +125,7 @@ img:hover {
   margin: 0.5em;
   border-radius: 10px;
   opacity: 50%;
+  width: 100%;
 }
 
 .inner-block-yellow {
@@ -103,6 +135,7 @@ img:hover {
   padding: 1em;
   margin: 0.5em;
   border-radius: 10px;
+  width: 100%;
 }
 
 .inner-block-yellow:hover,
@@ -115,8 +148,10 @@ img:hover {
 
 .column {
   justify-content: center;
+  place-items: center;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
 }
 
 .black {
@@ -142,4 +177,10 @@ img:hover {
   display: flex;
   justify-content: left;
   width: 100%;
+}
+
+.expandable-card {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
 }

@@ -5,8 +5,9 @@
     
     <div class="column">  
         <div class="inner-block-yellow">
-            <a href="/" use:link><h1 class="black">Danel Adendorff</h1></a>
-            <em>Data Engineering Student</em>
+            <h1 class="black">Danel Adendorff</h1>
+            <em>Data Engineering Student & Illustrator
+            </em>
         </div>  
         
         <div class="inner-block">
@@ -14,11 +15,11 @@
          
         </div>
         <div class="inner-block">
-            <a href="/skills" use:link><h2 >Skills</h2></a>
+            <a href="/skills" use:link><h2 >Work Experience</h2></a>
             
         </div>
         <div class="inner-block">
-            <a  href="/projects" use:link><h2 >Projects</h2></a>
+            <a  href="/projects" use:link><h2 >Illustration Work</h2></a>
             
         </div>
     </div>
